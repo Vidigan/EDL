@@ -62,7 +62,7 @@
   ```
   
 ## Conclusão
-  Além de ser uma linguagem totalmente composta por objetos, Ruby apresenta a flexibilidade que um programador precisa para conseguir um resultado da melhor maneira que o satisfaça, mas deixa a desejar com relação a certas peculiaridades em sua sintaxe, que dificultam a leitura do código, e a quantidade de casos especiais que a linguagem apresenta, talvez assim dificultando a vida do programador quantoa colocação de chaves em seu código
+  Além de ser uma linguagem totalmente composta por objetos, Ruby apresenta a flexibilidade que um programador precisa para conseguir um resultado da melhor maneira que o satisfaça, mas deixa a desejar com relação a certas peculiaridades em sua sintaxe, que dificultam a leitura do código, e a quantidade de casos especiais que a linguagem apresenta, talvez assim dificultando a vida do programador quantoa colocação de chaves em seu código.
 
 
 ## Bibliografia
