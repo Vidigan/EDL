@@ -20,6 +20,7 @@
   Abaixo podemos ver a comparação de códigos com relação ao Ruby em diferentes situações
   
   #Caso queiramos o tempo daqui a um mês:
+  
    _Ruby_
    
   ```
@@ -34,6 +35,7 @@
   new_time = datetime.now() + relativedelta(months=1)
   ```
   #Manipulação de blocos em array:
+  
   _Ruby_
   ```
   items = [1,2,3,4]
