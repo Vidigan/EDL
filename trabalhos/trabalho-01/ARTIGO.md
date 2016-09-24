@@ -17,49 +17,35 @@
   > _There's more than one way to do the same thing_.
   
 ## Código Representativo
-  Observe abaixo códigos de orientação a objeto na linguagem Ruby:
+  Abaixo podemos ver a comparação de códigos com relação ao Ruby em diferentes situações
   
-  Printando uma simples frase:
-  ```
-  def no_args()
-  puts "Hello World!"
-  end 
-  ```
-  Exemplo de definição de métodos e chamadas:
-  ```
-  def acelerar
-  puts "Pisando no acelerador"
-  puts "Acelerando…"
-  end
+  #Caso queiramos o tempo daqui a um mês:
+   _Ruby_
    
-  def buzinar
-  puts "Pressionando a buzina"
-  puts "Beep beep!"
-  end
-   
-  def usar_farois(tipo_farol)
-  puts "Acendendo #{tipo_farol}"
-  end
-   
-  buzinar
-  acelerar
-  usar_farois("farol-baixo")
+  ```
+  require7 'active_support/all'
+  new_time = 1.month.from_now
+  ```
+  _Python_
+  
+  ```
+  from datetime import datetime
+  from dateutil.relativedelta import relativedelta
+  new_time = datetime.now() + relativedelta(months=1)
+  ```
+  #Manipulação de blocos em array:
+  _Ruby_
+  ```
+  items = [1,2,3,4]
+  newitems = items.map{|i| i + 1 }
   ```
   
-  Exemplo de classe em Ruby:
+  _Python_
   ```
-  class Cachorro
-   
-  def falar
-  puts "Latir!"
-  end
-   
-  def mover(destino)
-  puts "Correndo para o #{destino}."
-  end
-   
-  end  
+  items = [1,2,3,4]
+  newitems = [i + 1 for i in items]
   ```
+  
   
 ## Conclusão
   Além de ser uma linguagem totalmente composta por objetos, Ruby apresenta a flexibilidade que um programador precisa para conseguir um resultado da melhor maneira que o satisfaça, mas deixa a desejar com relação a certas peculiaridades em sua sintaxe, que dificultam a leitura do código, e a quantidade de casos especiais que a linguagem apresenta, talvez assim dificultando a vida do programador quantoa colocação de chaves em seu código.
@@ -75,3 +61,5 @@
   * http://www.wikivs.com/wiki/Python_vs_Ruby
   * http://www.devmedia.com.br/orientacao-a-objetos-com-ruby/33726
   * https://www.infoq.com/br/news/2010/05/python-vs-ruby
+  * http://www.senktec.com/2013/06/ruby-vs-python/
+  * http://programminglanguage.my-free.website/home/ruby-vs-python-programming-language-for-web-development
