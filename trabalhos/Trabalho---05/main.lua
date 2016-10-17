@@ -66,6 +66,7 @@ function love.update(dt)
 		canShootTimer = canShootTimerMax
 	end
 
+-- trabalho -05 
 --Coleção: Função if love.keyboard.isDown
 --Escopo: Local
 --Tempo de vida: O tempo de vida da função acima é dado quando a tecla designada está, ou não, pressionada corretamente, assim executando atualizando a função love.update e verificando diretamente na função se é true ou false
