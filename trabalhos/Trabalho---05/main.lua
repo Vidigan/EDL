@@ -9,6 +9,14 @@ canShootTimer = canShootTimerMax
 bulletImg = nil
 bullets = {} -- array das atuais balas sendo criadas e atualizadas
 
+--trabalho-05 
+--Coleção: variável bullets
+--Escopo: Global
+--Tempo de vida: O tempo de vida da variável bullets se dá no momento em que é criada e termina quando saem da tela
+--Alocação: A alocação de espaço da variável se dá no momento em que o jogo é iniciado e são criadas dentro da função update
+--Desalocação: A desalocação do objeto se dá quando a tecla designada é dada por falsa, ou seja, uma tecla diferente foi pressionada no lugar da correta, ou então quando a tecla designada é soltada, tornando a função falsa
+--ou então quando o objeto sai do final da tela.
+
 createEnemyTimerMax = 0.4
 createEnemyTimer = createEnemyTimerMax
 enemyImg = nil
@@ -65,13 +73,6 @@ function love.update(dt)
 		canShoot = false
 		canShootTimer = canShootTimerMax
 	end
-
--- trabalho -05 
---Coleção: Função if love.keyboard.isDown
---Escopo: Local
---Tempo de vida: O tempo de vida da função acima é dado quando a tecla designada está, ou não, pressionada corretamente, assim executando atualizando a função love.update e verificando diretamente na função se é true ou false
---Alocação: A alocação se dá no momento em que o jogo começa e assim, suas informações são atualizadas periodicamente de acordo com o pressionar da tecla.
---Desalocação: A desalocação do objeto se dá quando a tecla designada é dada por falsa, ou seja, uma tecla diferente foi pressionada no lugar da correta, ou então quando a tecla designada é soltada, tornando a função falsa
 
 	
 	for i, bullet in ipairs(bullets) do
