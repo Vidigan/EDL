@@ -34,7 +34,7 @@
   from dateutil.relativedelta import relativedelta
   new_time = datetime.now() + relativedelta(months=1)
   ```
-  #Manipulação de blocos em array:
+  # Manipulação de blocos em array:
   
   _Ruby_
   ```
