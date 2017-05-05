@@ -19,7 +19,7 @@
 ## Código Representativo
   Abaixo podemos ver a comparação de códigos com relação ao Ruby em diferentes situações
   
-  # Caso queiramos o tempo daqui a um mês:
+  ## Caso queiramos o tempo daqui a um mês:
   
    _Ruby_
    
